@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title> WEB_LABWORK_1</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+<header class="name-group-variant">
+    Косогова Мария Александровна<br>
+    Р3206 <br>
+    Вариант 466310 <br>
+</header>
+<main>
+    <div class="base">
+        <form method="GET" id="params">
+            <div class="inputs">
+                <div class="x-input">
+                    <fieldset>
+                        <legend>Выберите X</legend>
+                        <button class="x-button" type="button" value="-4"> -4</button>
+                        <button class="x-button" type="button" value="-3"> -3</button>
+                        <button class="x-button" type="button" value="-2"> -2</button>
+                        <button class="x-button" type="button" value="-1"> -1</button>
+                        <button class="x-button" type="button" value="0"> 0</button>
+                        <button class="x-button" type="button" value="1"> 1</button>
+                        <button class="x-button" type="button" value="2"> 2</button>
+                        <button class="x-button" type="button" value="3"> 3</button>
+                        <button class="x-button" type="button" value="4"> 4</button>
+                    </fieldset>
+                </div>
+
+                <div class="y-input">
+                    <fieldset>
+                        <legend>Выберите Y</legend>
+                        <input class="y-select" id="y" type="text" placeholder=" Допустимый диапозон [ -3; 3 ]">
+                    </fieldset>
+                </div>
+
+                <div class="r-input">
+                    <fieldset>
+                        <legend>Выберите R</legend>
+                        <button class="r-button" type="button" value="1"> 1</button>
+                        <button class="r-button" type="button" value="2"> 2</button>
+                        <button class="r-button" type="button" value="3"> 3</button>
+                        <button class="r-button" type="button" value="4"> 4</button>
+                        <button class="r-button" type="button" value="5"> 5</button>
+                    </fieldset>
+                    <div id="error" hidden></div>
+                </div>
+                <br>
+                <button type="submit" class="submit-button"> Отправить</button>
+                <button type="reset" class="reset-button"> Очистить</button>
+        </form>
+    </div>
+    <div class="graphs-area">
+        <h3>График</h3>
+        <img src="gr.svg" width="500" height="500">
+    </div>
+    </div>
+    <div class="table">
+        <div class="btn-err">
+            <button type="reset" class="reset-button-table"> Очистить таблицу</button>
+        </div>
+        <table id="table-result">
+            <colgroup>
+                <col class="col-1">
+                <col class="col-2">
+                <col class="col-3">
+                <col class="col-4">
+                <col class="col-5">
+                <col class="col-6">
+            </colgroup>
+            <tr>
+                <th>X</th>
+                <th>Y</th>
+                <th>R</th>
+                <th>Продолжительность</th>
+                <th>Время</th>
+                <th>Результат</th>
+            </tr>
+        </table>
+    </div>
+</main>
+</body>
+<footer id="end">
+    Университет ИТМО, ФПиКТ, 2025
+</footer>
+</html>

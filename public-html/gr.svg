@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg id="svg2" viewBox="53.239 153.661 379.67 383.675" xmlns="http://www.w3.org/2000/svg" width="20px" height="6px" xmlns:bx="https://boxy-svg.com">
+  <desc>Source: openclipart.org/detail/209545</desc>
+  <defs>
+    <bx:grid x="0" y="0" width="34.385" height="35.204"/>
+  </defs>
+  <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="240.695" y1="176.02" x2="240.695" y2="528.06"/>
+  <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="68.77" y1="352.04" x2="412.62" y2="352.04"/>
+  <path d="M 240.78 166.633 L 245.487 176.02 L 236.073 176.02 L 240.78 166.633 Z" bx:shape="triangle 236.073 166.633 9.414 9.387 0.5 0 1@2fdf3177" style="stroke: rgb(0, 0, 0); fill: rgb(9, 0, 0);"/>
+  <path d="M 451.712 342.653 L 456.419 352.04 L 447.005 352.04 L 451.712 342.653 Z" bx:shape="triangle 447.005 342.653 9.414 9.387 0.5 0 1@f99b3520" style="stroke: rgb(0, 0, 0); fill: rgb(9, 0, 0); stroke-width: 1; transform-box: fill-box; transform-origin: 50% 50%;" transform="matrix(0, 1, -1, 0, -34.398483, 5.456749)"/>
+  <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="171.925" y1="347.13" x2="171.925" y2="357.373"/>
+  <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="171.925" y1="347.13" x2="171.925" y2="357.373"/>
+  <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="171.925" y1="347.13" x2="171.925" y2="357.373"/>
+  <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="171.925" y1="347.13" x2="171.925" y2="357.373"/>
+  <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="103.155" y1="346.922" x2="103.155" y2="356.997"/>
+  <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="378.235" y1="346.935" x2="378.235" y2="357.01"/>
+  <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="103.155" y1="346.922" x2="103.155" y2="356.997" transform="matrix(1.00000745, 0, 0, 1, -0.00075107, 0)"/>
+  <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="103.155" y1="346.922" x2="103.155" y2="356.997" transform="matrix(1.00000745, 0, 0, 1, -0.00075107, 0)"/>
+  <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="103.155" y1="346.922" x2="103.155" y2="356.997" transform="matrix(1.00000745, 0, 0, 1, -0.00075107, 0)"/>
+  <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); transform-box: fill-box; transform-origin: 50% 50%;" x1="241.32" y1="276.511" x2="241.32" y2="286.753" transform="matrix(0, 0.999996, -1, 0, 0.000909, -0.000001)"/>
+  <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="246.064" y1="281.632" x2="235.822" y2="281.632"/>
+  <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="245.979" y1="422.448" x2="235.737" y2="422.448"/>
+  <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="246.107" y1="492.856" x2="235.865" y2="492.856"/>
+  <path style="stroke: rgb(0, 0, 0); fill: rgba(205, 92, 92, 0.6); stroke-width: 0px;" transform="matrix(0.990196, 0, 0, 1.01378, -150.001831, -54.712799)" d="M 464.015 401.225 A 69.451 69.451 0 0 1 395.126 470.674 L 394.564 401.225 Z" bx:shape="pie 394.564 401.225 0 69.451 90 179.536 1@e76b483b"/>
+  <rect x="171.925" y="211.224" width="68.77" height="140.816" style="stroke: rgb(0, 0, 0); fill: rgba(205, 92, 92, 0.6); stroke-miterlimit: 1; vector-effect: non-scaling-stroke; stroke-width: 0px;"/>
+  <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="171.925" y1="347.13" x2="171.925" y2="357.373"/>
+  <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="245.803" y1="211.224" x2="235.561" y2="211.224"/>
+  <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="246.444" y1="281.629" x2="236.202" y2="281.629"/>
+  <path d="M 240.695 281.632 L 309.465 352.04 L 240.695 352.04 L 240.695 281.632 Z" bx:shape="triangle 240.695 281.632 68.77 70.408 0 0 1@a2ebd546" style="stroke: rgb(0, 0, 0); fill: rgba(205, 92, 92, 0.6); stroke-width: 0px;"/>
+  <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="309.465" y1="347.124" x2="309.465" y2="357.199"/>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; white-space: pre; font-size: 16px;" x="409.01" y="343.242">X</text>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; white-space: pre; font-size: 16px; stroke-width: 1;" x="372.715" y="344.584">R</text>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; white-space: pre; font-size: 16px; stroke-width: 1;" x="301.072" y="342.281">R/2</text>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; white-space: pre; font-size: 16px; stroke-width: 1;" x="253.227" y="217.489">R</text>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; white-space: pre; font-size: 16px; stroke-width: 1;" x="250.183" y="286.126">R/2</text>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; white-space: pre; font-size: 16px; stroke-width: 1;" x="249.307" y="427.036">- R/2</text>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; white-space: pre; font-size: 16px; stroke-width: 1;" x="152.171" y="343.395">- R/2</text>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; white-space: pre; font-size: 16px; stroke-width: 1;" x="88.881" y="342.414">- R</text>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; white-space: pre; font-size: 16px; stroke-width: 1;" x="249.876" y="497.218">- R</text>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; white-space: pre; font-size: 16px; stroke-width: 1;" x="249.006" y="178.272">Y</text>
+</svg>

@@ -1,0 +1,244 @@
+body {
+    background: radial-gradient(circle, #DB7093, #FFB6C1);
+    font-family: Georgia, serif;
+    color: #BC3F4A;
+}
+
+header {
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.6);
+    padding: 20px;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.name-group-variant {
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+div {
+    background: rgba(255, 255, 255, 0.6);
+    padding: 20px;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.base {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+}
+
+.graphs-area {
+    text-align: center;
+    font-size: 20px;
+}
+
+fieldset {
+    border: 3px solid #BC3F4A;
+    border-radius: 8px;
+    padding: 18px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+.x-input > fieldset {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 10px;
+    justify-items: center;
+}
+
+.x-input > fieldset > .x-button {
+    width: 85px;
+    height: 45px;
+    color: white;
+    font-weight: bold;
+    background-color: #E68A94;
+    cursor: pointer;
+    border-radius: 8px;
+    border-color: #E68A94;
+}
+
+.r-input > fieldset > .r-button {
+    color: white;
+    font-weight: bold;
+    background-color: #E68A94;
+    width: 50px;
+    height: 40px;
+    border-radius: 8px;
+    border-color: #E68A94;
+    cursor: pointer;
+}
+
+.r-input > fieldset {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.y-input > fieldset > .y-select {
+    width: 270px;
+    border-radius: 8px;
+    border-color: white;
+    text-align: center;
+}
+
+.y-input > fieldset > .y-select::placeholder {
+    color: #BC3F4A;
+    font-family: Georgia, serif;
+}
+
+.y-input > fieldset > .y-select:hover {
+    background-color: #F5D3D7;
+}
+
+.reset-button:hover {
+    background-color: #F4979C;
+}
+
+.submit-button:hover {
+    background-color: #F4979C;
+}
+
+.submit-button, .reset-button {
+    color: #BC3F4A;
+    cursor: pointer;
+    font-family: Georgia, serif;
+    width: 170px;
+    padding: 15px;
+    margin: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border-color: #FFB6C1;
+    background-color: #FFB6C1;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+}
+
+th, td {
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+th {
+    background-color: #BC3F4A;
+    color: white;
+}
+
+td {
+    color: white;
+    background: #E68A94;
+}
+
+tr:hover td {
+    background: pink;
+}
+
+#error {
+    color: #D32F6E;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.table {
+    display: grid;
+    grid-template-columns: 250px minmax(0, 2fr);
+    gap: 40px;
+    align-items: start;
+}
+
+.btn-err {
+    grid-column: 1 / 2;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 30px;
+    background: transparent;
+    padding: 0;
+}
+
+#table-result {
+    text-align: center;
+    table-layout: fixed;
+    word-break: break-all;
+    grid-column: 2 / 3;
+    min-width: 0;
+    justify-self: start;
+    width: 100%;
+}
+
+#error-table {
+    color: #D32F6E;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    max-width: 250px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    border: 2px solid #D32F6E;
+    margin-left: 50px;
+}
+
+.reset-button-table {
+    color: #BC3F4A;
+    cursor: pointer;
+    font-family: Georgia, serif;
+    width: 210px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 8px;
+    border-color: #FFB6C1;
+    background-color: #FFB6C1;
+    font-weight: bold;
+    margin-right: 50px;
+}
+
+.x-input > fieldset > .x-button.active,
+.r-input > fieldset > .r-button.active {
+    background-color: #F5D3D7;
+    border-color: #F5D3D7;
+}
+
+.reset-button-table:hover {
+    background-color: #F4979C;
+}
+
+#table-result col.col-1 {
+    width: 70px;
+}
+
+#table-result col.col-2 {
+    width: 250px;
+}
+
+#table-result col.col-3 {
+    width: 70px;
+}
+
+#table-result col.col-4 {
+    width: 250px;
+}
+
+#table-result col.col-5 {
+    width: 110px;
+}
+
+#table-result col.col-6 {
+    width: 140px;
+}
+
+
+
