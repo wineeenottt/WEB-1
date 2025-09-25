@@ -1,4 +1,4 @@
-package org.wineeenottt;
+package org.wineeenottt.CheckArea;
 
 import java.math.BigDecimal;
 

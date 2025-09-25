@@ -1,6 +1,10 @@
-package org.wineeenottt;
+package org.wineeenottt.Server;
 
 import com.fastcgi.FCGIInterface;
+import org.wineeenottt.CheckArea.AreaShape;
+import org.wineeenottt.CheckArea.ParserParameters;
+import org.wineeenottt.Exception.InvalidParametersException;
+import org.wineeenottt.SQL.SQLManager;
 
 import java.math.BigDecimal;
 import java.nio.charset.StandardCharsets;
@@ -10,6 +14,8 @@ import java.util.Locale;
 import java.util.Map;
 
 public class FCGIServer {
+
+    private final SQLManager sqlManager;
 
     private final FCGIInterface fcgi;
 
@@ -51,6 +57,7 @@ public class FCGIServer {
 
     public FCGIServer() {
         this.fcgi = new FCGIInterface();
+        this.sqlManager = new SQLManager();
     }
 
     public void start() {
@@ -67,6 +74,14 @@ public class FCGIServer {
                 if (queryString == null || queryString.isEmpty()) {
                     throw new InvalidParametersException("Параметры отсутствуют");
                 }
+                if (queryString.equals("clear=true")) {
+                    sqlManager.clearHitResult();
+                    String json = "{\"messageInfo\":\"Таблица очищена\"}";
+                    String response = String.format(HTTP_SUCCESS, json.getBytes(StandardCharsets.UTF_8).length, json);
+                    System.out.println(response);
+                    continue;
+                }
+
 
                 Map<String, String> map = ParserParameters.parseParams(queryString);
                 BigDecimal x = ParserParameters.getX(map);
@@ -80,6 +95,8 @@ public class FCGIServer {
                 double executionTime = (endTime - startTime) / 1_000_000.0;
                 LocalTime curTime = LocalTime.now();
                 String nowTime = curTime.format(TIME_FORMATTER);
+
+                sqlManager.insertHitResult(x, y, r, isHit, executionTime, nowTime);
 
                 String json = String.format(Locale.US, RESULT, x.toString(), y.toString(), r.toString(), executionTime, nowTime, isHit);
                 String response = String.format(HTTP_SUCCESS, json.getBytes(StandardCharsets.UTF_8).length, json);

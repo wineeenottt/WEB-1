@@ -130,9 +130,18 @@ document.addEventListener("DOMContentLoaded", () => {
         localStorage.setItem('tblResults', JSON.stringify(results));
     }
 
-    document.querySelector('.reset-button-table').addEventListener('click', () => {
-        results = [];
-        localStorage.removeItem('tblResults');
-        reloadTable();
+    document.querySelector('.reset-button-table').addEventListener('click', async () => {
+        try {
+            results = [];
+            localStorage.removeItem('tblResults');
+            reloadTable();
+
+            const response = await fetch('/fcgi-app?clear=true', { method: 'GET' });
+            const data = await response.json();
+
+            console.log(data.message);
+        } catch (err) {
+            console.error("Ошибка очистки на сервере:", err);
+        }
     });
 });

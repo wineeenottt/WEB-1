@@ -1,7 +1,8 @@
-package org.wineeenottt;
+package org.wineeenottt.CheckArea;
+
+import org.wineeenottt.Exception.InvalidParametersException;
 
 import java.math.BigDecimal;
-import java.math.RoundingMode;
 import java.util.HashMap;
 import java.util.Map;
 
